@@ -1,0 +1,11 @@
+.Iconbutton{
+    width: 100px;
+    height: 60%;
+    border: 1px solid;
+    margin-right: 500px;
+}
+
+.Box{
+    background-color: white;
+    height: 80px;
+}
