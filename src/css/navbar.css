@@ -1,11 +1,32 @@
 .Iconbutton{
     width: 100px;
     height: 60%;
-    border: 1px solid;
-    margin-right: 500px;
+  
+    
+    
 }
 
 .Box{
+    display: flex;
+    gap: 20px;
     background-color: white;
     height: 80px;
+}
+
+
+.Box>button{
+    margin-left: 450px;
+    width: 150px;
+    height: 60%;
+    margin-left: 400px;
+}
+
+
+.Boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 400px;
+    height: 100%;
 }
