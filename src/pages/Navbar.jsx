@@ -12,6 +12,9 @@ const Navbar = () => {
       <Box   sx={{ flexGrow: 1 }}>
       <AppBar position="static"   >
         <Toolbar variant="dense" className='Box'>
+          <div className="Appbar_img">
+            <img src="" alt="" />
+          </div>
         <div className='Boxs'>
         <Button className='Iconbutton ' variant="contained">Login </Button>
         <Button variant="outlined">Sing up</Button>
