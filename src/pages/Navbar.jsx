@@ -4,7 +4,15 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import  "../css/navbar.css" 
 import Button from '@mui/material/Button';
+import Logos from "../pages/Group.jpg"
 
+
+
+const stayles =  {
+  width: "30px", 
+
+
+}
 
 const Navbar = () => {
   return (
@@ -13,7 +21,7 @@ const Navbar = () => {
       <AppBar position="static"   >
         <Toolbar variant="dense" className='Box'>
           <div className="Appbar_img">
-            <img src="" alt="" />
+            <img src={Logos}  style={stayles} alt="" />
           </div>
         <div className='Boxs'>
         <Button className='Iconbutton ' variant="contained">Login </Button>
