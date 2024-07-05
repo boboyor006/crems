@@ -10,8 +10,7 @@ import Logos from "../pages/Group.jpg"
 
 const stayles =  {
   width: "30px", 
-
-
+  height: "40px"
 }
 
 const Navbar = () => {
@@ -21,7 +20,7 @@ const Navbar = () => {
       <AppBar position="static"   >
         <Toolbar variant="dense" className='Box'>
           <div className="Appbar_img">
-            <img src={Logos}  style={stayles} alt="" />
+            <img src={Logos}  style={stayles} alt="" /> <p>Bank rezyumesi  </p>
           </div>
         <div className='Boxs'>
         <Button className='Iconbutton ' variant="contained">Login </Button>
