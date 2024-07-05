@@ -8,7 +8,9 @@ const Header = () => {
   return (
     <>
         <header className='AppBar'>
-
+              <div className="header_img">
+                
+              </div>
         </header>
     </>
   )
