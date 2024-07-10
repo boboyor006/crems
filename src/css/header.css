@@ -49,16 +49,16 @@
 
 .h3{
     width: 400px;
-    fontfamil: san-serif;
-    marginTop : 100px;
-    marginLeft: 80px;
+    font-family: san-serif;
+    margin-top : 100px;
+    margin-left: 80px;
 }
 
 
 .p{
     width: 350px;
     color: rgb(110, 106, 106);
-    marginLeft: 80px;
+    margin-left: 80px;
 }
 
 
