@@ -41,3 +41,21 @@
     height: 100%;
     color: blue;
 }
+
+
+@media screen and (max-width : 1000px ) {
+    .Boxs{
+        width: 100%;
+        margin-left: -5px;
+    }
+
+
+    .Appbar_img{
+        font-size: 10px;
+        margin-left: -50px;
+        display: none;
+    }
+
+
+
+}
